@@ -1,0 +1,32 @@
+public abstract class Venda {
+    private String idVenda;
+    private Cliente cliente;
+    private Veiculo veiculo;
+    private double valorVenda;
+
+    public Venda(String idVenda, Cliente cliente, Veiculo veiculo, double valorVenda) {
+        this.idVenda = idVenda;
+        this.cliente = cliente;
+        this.veiculo = veiculo;
+        this.valorVenda = valorVenda;
+    }
+
+    public abstract void processarPagamento();
+    public abstract void concluirVenda();
+
+    public String getIdVenda() {
+        return idVenda;
+    }
+
+    public Cliente getCliente() {
+        return cliente;
+    }
+
+    public Veiculo getVeiculo() {
+        return veiculo;
+    }
+
+    public double getValorVenda() {
+        return valorVenda;
+    }
+}
