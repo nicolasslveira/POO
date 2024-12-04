@@ -1,5 +1,0 @@
-public interface Pagamento {
-    double calcularSalario(); // Para cálculo de salário fixo
-    double calcularComissao(); // Para cálculo de comissão, se houver
-    double calcularBonus(); // Para cálculo de bônus, se houver
-}

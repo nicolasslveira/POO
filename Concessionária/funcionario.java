@@ -8,11 +8,8 @@ public abstract class Funcionario {
         this.cpf = cpf;
         this.salario = salario;
     }
-
-    // Métodos abstratos
     public abstract void executarFuncao();
-
-    // Métodos comuns
+    
     public String getNome() {
         return nome;
     }

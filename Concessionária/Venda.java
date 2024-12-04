@@ -10,22 +10,17 @@ public abstract class Venda {
         this.veiculo = veiculo;
         this.valorVenda = valorVenda;
     }
-
     public abstract void processarPagamento();
     public abstract void concluirVenda();
-
     public String getIdVenda() {
         return idVenda;
     }
-
     public Cliente getCliente() {
         return cliente;
     }
-
     public Veiculo getVeiculo() {
         return veiculo;
     }
-
     public double getValorVenda() {
         return valorVenda;
     }
